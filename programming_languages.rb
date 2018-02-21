@@ -68,7 +68,6 @@ result = {
 
 def all_languages(languages)
 
-
   oo_languages = languages.fetch(:oo)
   functional_languages = languages.fetch(:functional)
   return oo_languages.merge(functional_languages)
